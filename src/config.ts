@@ -1,0 +1,12 @@
+import "dotenv/config";
+
+function requireEnv(name: string): string {
+  const value = process.env[name];
+  if (!value) {
+    throw new Error(`Missing required environment variable: ${name}`);
+  }
+  return value;
+}
+
+export const TELEGRAM_BOT_TOKEN = requireEnv("TELEGRAM_BOT_TOKEN");
+export const TELEGRAM_CHAT_ID = requireEnv("TELEGRAM_CHAT_ID");

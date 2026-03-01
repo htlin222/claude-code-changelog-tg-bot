@@ -1,0 +1,24 @@
+{
+  "name": "claude-code-changelog-tg-bot",
+  "version": "1.0.0",
+  "description": "Monitors Claude Code CHANGELOG.md and pushes zh-TW summaries to Telegram",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "@types/node-cron": "^3.0.11",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
