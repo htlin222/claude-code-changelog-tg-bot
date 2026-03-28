@@ -1,3 +1,7 @@
+![GitHub stars](https://img.shields.io/github/stars/htlin222/claude-code-changelog-tg-bot?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/htlin222/claude-code-changelog-tg-bot?style=flat-square)
+![License](https://img.shields.io/github/license/htlin222/claude-code-changelog-tg-bot?style=flat-square)
+
 # Claude Code Changelog Telegram Bot
 
 Monitors the [Claude Code CHANGELOG.md](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) hourly and pushes zh-TW summaries to Telegram via `claude -p`.
